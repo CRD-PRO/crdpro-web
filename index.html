@@ -36,14 +36,15 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             color: #1f4068;
         }
         ul {
             color: #333;
         }
         .whatsapp-btn {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
             background-color: #25D366;
             color: white;
             padding: 12px 20px;
@@ -51,6 +52,12 @@
             border-radius: 8px;
             font-weight: bold;
             margin-top: 20px;
+            font-size: 16px;
+        }
+        .whatsapp-btn img {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
         }
         footer {
             margin-top: 40px;
@@ -73,19 +80,30 @@
     <div class="container">
         <p>En CRD-PRO, te ofrecemos soluciones financieras seguras y accesibles. Nuestro compromiso es brindarte un servicio confiable, rápido y transparente. ¡Tu bienestar es nuestra prioridad!</p>
         
+        <h2>Aprobaciones en el día</h2>
+
         <h2>Requisitos para acceder a un préstamo:</h2>
         <ul>
             <li>Tener entre 20 y 75 años</li>
-            <li>Estar en Informconf limpio</li>
-            <li>Vivir en Paraguay</li>
+            <li>Contar con Informconf limpio</li>
             <li>Ser funcionario público</li>
-            <li>O ser empleado en empresa privada con IPS</li>
-            <li>O ser policía/militar</li>
-            <li>O ser jubilado</li>
-            <li>O ser empleado bancario</li>
+            <li>Empleado en empresa privada con IPS</li>
+            <li>Policía o militar</li>
+            <li>Jubilado</li>
+            <li>Empleado bancario</li>
+            <li><strong>Radio de acción:</strong> Todo el territorio nacional</li>
         </ul>
 
-        <a class="whatsapp-btn" href="https://wa.me/595983048953" target="_blank">Solicitar préstamo por WhatsApp</a>
+        <h2>Documentos necesarios:</h2>
+        <ul>
+            <li>Cédula de identidad (frente y dorso)</li>
+            <li>Última liquidación de salario</li>
+        </ul>
+
+        <a class="whatsapp-btn" href="https://wa.me/595983048953" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" />
+            Solicitar préstamo por WhatsApp
+        </a>
     </div>
 
     <footer>
